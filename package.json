@@ -11,7 +11,7 @@
   "scripts": {
     "test": "karma start karma.conf.js --single-run",
     "test:watch": "karma start karma.conf.js",
-    "build": "rimraf dist && ngc",
+    "build": "ngc",
     "lint": "tslint \"src/**/*.ts\"",
     "prepublishOnly": "npm run lint && npm run build",
     "prepare": "npm run build"
